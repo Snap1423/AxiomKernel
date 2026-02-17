@@ -25,4 +25,8 @@ This project is built to understand low-level system architecture including boot
 - Created inital kernel entry file (kernel_main)
 - Established basic kernel structure
 
+### Day 3
+- Created custom linker script
+- Defined kernel load address at 1MB
+- Structured memory sections (.text, .data, .bss)
 
