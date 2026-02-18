@@ -30,3 +30,8 @@ This project is built to understand low-level system architecture including boot
 - Defined kernel load address at 1MB
 - Structured memory sections (.text, .data, .bss)
 
+### Day 4
+- Created boot assembly file (`boot.asm`)
+- Defined `_start` as kernel entry point
+- Connected assembly entry to `kernel_main` in C
+- Established basic kernel execution flow
