@@ -35,3 +35,13 @@ This project is built to understand low-level system architecture including boot
 - Defined `_start` as kernel entry point
 - Connected assembly entry to `kernel_main` in C
 - Established basic kernel execution flow
+
+### Day 5
+- Compiled assembly and C in freestanding mode
+- Linked object files using custom linker script
+- Generated `kernel.bin` binary
+
+### Day 6
+- Created GRUB configuration
+- Generated bootable ISO image
+- Successfully booted AxiomKernal in QEMU
