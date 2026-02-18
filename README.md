@@ -45,3 +45,8 @@ This project is built to understand low-level system architecture including boot
 - Created GRUB configuration
 - Generated bootable ISO image
 - Successfully booted AxiomKernal in QEMU
+
+## First Boot
+
+AxiomKernal successfully booting and printing output via VGA memory-mapped I/O.
+<img width="720" height="137" alt="first_boot" src="https://github.com/user-attachments/assets/94ceb8b2-cea7-4d47-8ade-95b8d03d3d95" />
