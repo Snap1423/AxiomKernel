@@ -1,18 +1,23 @@
 void print(const char* str);
 void clear_screen();
-char get_key();
+char get_char();
 
 void kernel_main() {
 
     clear_screen();
-    print("Press any key...\n");
+    print("AxiomKernal v0.5\n");
+    print("Type something:\n");
 
-    char key = get_key();
+    while (1) {
+        char c = get_char();
 
-    print("Key detected!\n");
-
-    while (1);
+        if (c) {
+            char str[2] = {c, '\0'};
+            print(str);
+        }
+    }
 }
+
 
 
 
