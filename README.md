@@ -77,4 +77,4 @@ A reusable `print()` function writes characters to the VGA text buffer at addres
 - Initialized display before printing
 - Improved VGA driver functionality
 
-
+<img width="721" height="456" alt="day 10" src="https://github.com/user-attachments/assets/6d5708c1-1b82-4ae0-9e37-d090e3a93bda" />
