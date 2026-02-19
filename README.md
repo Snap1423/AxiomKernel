@@ -50,3 +50,15 @@ This project is built to understand low-level system architecture including boot
 
 AxiomKernal successfully booting and printing output via VGA memory-mapped I/O.
 <img width="720" height="137" alt="first_boot" src="https://github.com/user-attachments/assets/94ceb8b2-cea7-4d47-8ade-95b8d03d3d95" />
+
+
+### Day 8
+- Implemented modular VGA text driver
+- Created reusable `print()` function
+- Separated hardware driver logic from kernel logic
+- Improved project structure by introducing `drivers` directory
+
+## VGA Driver Abstraction
+
+The kernel now uses a modular VGA text driver instead of directly writing to memory in `kernel_main`.  
+A reusable `print()` function writes characters to the VGA text buffer at address `0xB8000`, enabling cleaner and more scalable kernel code.
