@@ -70,3 +70,4 @@ A reusable `print()` function writes characters to the VGA text buffer at addres
 - Implemented row and column tracking
 - Improved VGA driver to simulate terminal-like output
 
+<img width="723" height="79" alt="day 9" src="https://github.com/user-attachments/assets/f004edcd-0667-40ec-b794-397be598fa2f" />
