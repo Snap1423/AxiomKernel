@@ -78,6 +78,7 @@ A reusable `print()` function writes characters to the VGA text buffer at addres
 - Improved VGA driver functionality
 
 
+
 ### Day 11
 - Implemented basic keyboard input using I/O port 0x60
 - Accessed hardware directly using inline assembly (inb instruction)
