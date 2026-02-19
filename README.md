@@ -83,3 +83,6 @@ A reusable `print()` function writes characters to the VGA text buffer at addres
 - Implemented basic keyboard input using I/O port 0x60
 - Accessed hardware directly using inline assembly (inb instruction)
 - Kernel now responds to key press
+<img width="720" height="461" alt="day_11()1" src="https://github.com/user-attachments/assets/a7934c65-aabf-4637-9a20-ad559af28bb7" />
+
+<img width="720" height="458" alt="day 11" src="https://github.com/user-attachments/assets/4d5ea979-68e4-4dbd-b202-6c4e210d5fd3" />
