@@ -62,3 +62,4 @@ AxiomKernal successfully booting and printing output via VGA memory-mapped I/O.
 
 The kernel now uses a modular VGA text driver instead of directly writing to memory in `kernel_main`.  
 A reusable `print()` function writes characters to the VGA text buffer at address `0xB8000`, enabling cleaner and more scalable kernel code.
+<img width="720" height="157" alt="Screenshot 2026-02-19 060739" src="https://github.com/user-attachments/assets/78e71463-54c1-4361-a5a6-aaee2b0e39c9" />
