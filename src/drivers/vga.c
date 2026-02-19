@@ -6,6 +6,18 @@
 static int row = 0;
 static int column = 0;
 
+void clear_screen() {
+    char* video_memory = (char*) 0xB8000;
+
+    for (int i = 0; i < VGA_WIDTH * VGA_HEIGHT; i++) {
+        video_memory[i * 2] = ' ';
+        video_memory[i * 2 + 1] = 0x07;
+    }
+
+    row = 0;
+    column = 0;
+}
+
 void print(const char* str) {
     char* video_memory = (char*) 0xB8000;
 
@@ -30,4 +42,5 @@ void print(const char* str) {
         }
     }
 }
+
 
