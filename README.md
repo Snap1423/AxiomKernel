@@ -71,6 +71,7 @@ A reusable `print()` function writes characters to the VGA text buffer at addres
 - Improved VGA driver to simulate terminal-like output
 
 
+
 ### Day 10
 - Implemented clear_screen() function
 - Initialized display before printing
