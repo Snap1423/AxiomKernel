@@ -64,6 +64,7 @@ The kernel now uses a modular VGA text driver instead of directly writing to mem
 A reusable `print()` function writes characters to the VGA text buffer at address `0xB8000`, enabling cleaner and more scalable kernel code.
 
 
+
 ### Day 9 
 - Added newline (`\n`) support
 - Implemented row and column tracking
