@@ -87,7 +87,6 @@ A reusable `print()` function writes characters to the VGA text buffer at addres
 
 <img width="720" height="458" alt="day 11" src="https://github.com/user-attachments/assets/4d5ea979-68e4-4dbd-b202-6c4e210d5fd3" />
 
-
 ### Day 12
 - Implemented scancode to ASCII mapping
 - Kernel now reads and prints user input
@@ -99,4 +98,5 @@ A reusable `print()` function writes characters to the VGA text buffer at addres
 - Implemented backspace handling
 - Added cursor control for character deletion
 - Improved terminal-like behavior
+
 
