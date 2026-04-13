@@ -18,6 +18,23 @@ void clear_screen() {
     column = 0;
 }
 
+void backspace() {
+    char* video_memory = (char*) 0xB8000;
+
+    if (column == 0 && row == 0) return;
+
+    if (column == 0) {
+        row--;
+        column = VGA_WIDTH - 1;
+    } else {
+        column--;
+    }
+
+    int index = (row * VGA_WIDTH + column) * 2;
+    video_memory[index] = ' ';
+    video_memory[index + 1] = 0x07;
+}
+
 void print(const char* str) {
     char* video_memory = (char*) 0xB8000;
 
@@ -41,22 +58,4 @@ void print(const char* str) {
             row++;
         }
     }
-}
-
-
-void backspace() {
-    char* video_memory = (char*) 0xB8000;
-
-    if (column == 0 && row == 0) return;
-
-    if (column == 0) {
-        row--;
-        column = VGA_WIDTH - 1;
-    } else {
-        column--;
-    }
-
-    int index = (row * VGA_WIDTH + column) * 2;
-    video_memory[index] = ' ';
-    video_memory[index + 1] = 0x07;
 }
