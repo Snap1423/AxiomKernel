@@ -99,4 +99,12 @@ A reusable `print()` function writes characters to the VGA text buffer at addres
 - Added cursor control for character deletion
 - Improved terminal-like behavior
 
+<img width="720" height="177" alt="day 13" src="https://github.com/user-attachments/assets/b305c846-dbf0-4109-8c75-3209bacab947" />
+<img width="720" height="397" alt="day 13_b" src="https://github.com/user-attachments/assets/9e1b4085-7a69-4602-a6a0-0667f0050cc3" />
+
+### Day 14
+- Implemented basic shell interface
+- Added command buffer system
+- Implemented commands: help, clear, about
+<img width="725" height="465" alt="Day 14" src="https://github.com/user-attachments/assets/4aa3f186-eb7d-4965-ba65-bf6030c400c9" />
 
