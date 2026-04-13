@@ -108,3 +108,11 @@ A reusable `print()` function writes characters to the VGA text buffer at addres
 - Implemented commands: help, clear, about
 <img width="725" height="465" alt="Day 14" src="https://github.com/user-attachments/assets/4aa3f186-eb7d-4965-ba65-bf6030c400c9" />
 
+### Day 15
+- Implemented memory visualization using bump allocator
+- Displayed allocated memory blocks visually on screen
+- Demonstrated dynamic memory allocation using kmalloc
+- Finalized kernel with shell, commands, and memory management
+- Completed project build system using Makefile
+<img width="1222" height="443" alt="day 15 code" src="https://github.com/user-attachments/assets/60e2f24f-2c93-4909-b1c9-47ee266dd682" />
+<img width="800" height="500" alt="day 15" src="https://github.com/user-attachments/assets/0431a384-1bbd-47ed-b5cd-61a0afabc734" />
